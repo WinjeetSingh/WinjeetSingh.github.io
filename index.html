@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Meta Tags for AI & Data Science Roles -->
+    <title>Winjeet Singh | AI Engineer & Data Scientist</title>
+    <meta name="description" content="Portfolio of Winjeet Singh, an AI Engineer, Data Scientist, and Data Analytics professional specializing in Machine Learning, Deep Learning, NLP, and Computer Vision.">
+    
+    <link rel="icon" type="image/png" href="assets/profile/favicon.png">
+    
+    <!-- Premium Fonts & Frameworks -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: { 
+                        primary: '#06b6d4',      /* Cyan */
+                        secondary: '#3b82f6',    /* Blue */
+                        darkbg: '#020617',       /* Deep Slate */
+                        cardbg: '#0f172a',       /* Elevated Slate */
+                        cardborder: '#1e293b'    /* Border Slate */
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-darkbg text-slate-300 font-sans antialiased selection:bg-primary selection:text-white relative overflow-x-hidden">
+
+    <!-- Ambient Background Effects -->
+    <div class="absolute top-0 left-0 w-[600px] h-[600px] bg-primary/10 rounded-full blur-[120px] -z-10 pointer-events-none"></div>
+    <div class="absolute top-1/4 right-0 w-[500px] h-[500px] bg-purple-600/10 rounded-full blur-[150px] -z-10 pointer-events-none"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="w-full bg-darkbg/85 backdrop-blur-xl border-b border-cardborder fixed top-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 font-extrabold text-3xl tracking-tighter cursor-pointer">
+                    <a href="#home" class="text-white">W<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">S.</span></a>
+                </div>
+                <div class="hidden lg:flex space-x-6 items-center">
+                    <a href="#about" class="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">Education</a>
+                    <a href="#skills" class="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">Skills</a>
+                    <a href="#ai-projects" class="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">AI Projects</a>
+                    <a href="#dashboards" class="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">Dashboards</a>
+                    <a href="#credentials" class="text-sm font-semibold text-slate-300 hover:text-primary transition-colors">Credentials</a>
+                    <a href="assets/resume/winjeet-singh-resume.pdf" target="_blank" class="bg-gradient-to-r from-primary to-secondary text-white px-6 py-2.5 rounded-lg hover:shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all font-bold flex items-center group border border-transparent">
+                        <i class="fa-solid fa-file-pdf mr-2 group-hover:animate-pulse"></i> Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. HERO SECTION & KPI HIGHLIGHTS -->
+    <section id="home" class="pt-32 pb-16 md:pt-48 md:pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto min-h-[90vh] flex flex-col justify-center">
+        
+        <div class="flex flex-col-reverse md:flex-row items-center justify-between mb-16">
+            <!-- Hero Text -->
+            <div class="w-full md:w-3/5 mt-16 md:mt-0 text-center md:text-left z-10">
+                <div class="inline-flex items-center px-4 py-1.5 rounded-full bg-slate-900/80 border border-primary/30 text-primary font-semibold text-xs tracking-wide uppercase mb-6 shadow-[0_0_15px_rgba(6,182,212,0.2)] backdrop-blur-md">
+                    <span class="relative flex h-2 w-2 mr-3">
+                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+                      <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+                    </span>
+                    Available for AI & Data Roles
+                </div>
+                <h1 class="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight mb-4 tracking-tight">
+                    Winjeet Singh
+                </h1>
+                <h2 class="text-xl sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400 font-bold mb-6 leading-relaxed">
+                    AI Engineer | Data Scientist | Machine Learning | Data Analytics
+                </h2>
+                <p class="text-slate-400 text-base md:text-lg mb-8 max-w-2xl mx-auto md:mx-0 leading-relaxed font-medium">
+                    Architecting intelligent, data-driven solutions and transforming complex datasets into actionable business insights. Specializing in deploying predictive models, deep learning architectures, and scalable analytics dashboards.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#ai-projects" class="bg-gradient-to-r from-primary to-secondary text-white px-8 py-3.5 rounded-xl font-bold hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] transition-all text-center flex items-center justify-center">
+                        Explore My Work <i class="fa-solid fa-arrow-right ml-2"></i>
+                    </a>
+                    <a href="#contact" class="bg-cardbg text-white border border-cardborder hover:border-primary/50 px-8 py-3.5 rounded-xl font-bold transition-all shadow-sm text-center">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="w-full md:w-2/5 flex justify-center relative">
+                <div class="absolute inset-0 bg-gradient-to-tr from-primary to-purple-600 rounded-full blur-3xl opacity-30 z-0 scale-90 animate-pulse-slow"></div>
+                <div class="relative z-10 w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-cardborder shadow-[0_0_40px_rgba(6,182,212,0.2)] bg-cardbg animate-float cursor-pointer group" onclick="openModal('assets/profile/winjeet.jpg')">
+                    <img src="assets/profile/winjeet.jpg" alt="Winjeet Singh" class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" onerror="this.src='https://via.placeholder.com/400x400.png?text=Winjeet+Singh'">
+                </div>
+            </div>
+        </div>
+
+        <!-- KEY PERFORMANCE INDICATORS (KPIs) HIGHLIGHT BAR -->
+        <div class="w-full bg-cardbg/50 backdrop-blur-sm border border-cardborder rounded-2xl p-8 shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-purple-500 to-secondary"></div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x-0 md:divide-x divide-cardborder/50 text-center">
+                <div class="flex flex-col items-center justify-center">
+                    <h4 class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 mb-2">9+</h4>
+                    <p class="text-sm font-semibold text-primary tracking-wide uppercase">End-to-End Projects</p>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <h4 class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 mb-2">4+</h4>
+                    <p class="text-sm font-semibold text-primary tracking-wide uppercase">Core AI Domains Mastered</p>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <h4 class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 mb-2">5+</h4>
+                    <p class="text-sm font-semibold text-primary tracking-wide uppercase">Professional Certifications</p>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <h4 class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-400 mb-2">2+</h4>
+                    <p class="text-sm font-semibold text-primary tracking-wide uppercase">Excellence Awards</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 2. EDUCATION & TRAINING -->
+    <section id="about" class="py-20 bg-cardbg border-t border-cardborder relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Education & Training</h2>
+                <div class="w-20 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full shadow-[0_0_10px_rgba(6,182,212,0.8)]"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+                <!-- Professional Training Side -->
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-6 flex items-center"><i class="fa-solid fa-laptop-code text-primary mr-3"></i> Professional Training</h3>
+                    <div class="bg-darkbg p-8 rounded-2xl border border-cardborder shadow-lg relative hover:border-primary/30 transition-colors h-full">
+                        <div class="absolute top-0 right-0 bg-gradient-to-r from-primary to-secondary text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-xl">2025 - 2026</div>
+                        <h4 class="text-xl font-bold text-white mb-2">Artificial Intelligence Programming Assistant</h4>
+                        <p class="text-sm font-semibold text-primary mb-6">DGT, Microsoft and Edunet Foundation - NSTI Ludhiana</p>
+                        <ul class="text-slate-400 text-sm space-y-3 list-disc pl-5 font-medium leading-relaxed">
+                            <li>Learned to analyze, visualize, and derive business insights from data using Python, SQL, and BI tools.</li>
+                            <li>Gained strong foundations in computer systems, operating systems, Python programming, and database management.</li>
+                            <li>Built practical skills in AI, machine learning, deep learning, NLP, and computer vision for real-world applications.</li>
+                            <li>Developed end-to-end AI solutions using Generative AI, GitHub collaboration, and Streamlit deployment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Academic Background Side -->
+                <div>
+                    <h3 class="text-2xl font-bold text-white mb-6 flex items-center"><i class="fa-solid fa-graduation-cap text-primary mr-3"></i> Academic Background</h3>
+                    <div class="space-y-6 h-full flex flex-col">
+                        <div class="bg-darkbg p-6 rounded-2xl border border-cardborder shadow-lg relative hover:border-primary/30 transition-colors flex-1 flex flex-col justify-center">
+                        <div class="absolute top-0 right-0 bg-gradient-to-r from-primary to-secondary text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-xl">2025</div>
+                            <h4 class="text-xl font-bold text-white mb-2">Class 12 (Science Stream)</h4>
+                            <p class="text-sm text-slate-400 font-medium mb-3">Heritage Public Sen. Sec School (CBSE)</p>
+                            <p class="text-primary font-bold text-sm tracking-wide">Score: 66%</p>
+                        </div>
+                        <div class="bg-darkbg p-6 rounded-2xl border border-cardborder shadow-lg relative hover:border-primary/30 transition-colors flex-1 flex flex-col justify-center">
+                        <div class="absolute top-0 right-0 bg-gradient-to-r from-primary to-secondary text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-xl">2023</div>
+                            <h4 class="text-xl font-bold text-white mb-2">Class 10</h4>
+                            <p class="text-sm text-slate-400 font-medium mb-3">Heritage Public Sen. Sec School (CBSE)</p>
+                            <p class="text-primary font-bold text-sm tracking-wide">Score: 80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. EXACT SKILLS SECTION -->
+    <section id="skills" class="py-20 bg-darkbg border-t border-cardborder relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Technical Expertise</h2>
+                <div class="w-20 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full shadow-[0_0_10px_rgba(6,182,212,0.8)]"></div>
+                <p class="text-slate-400 mt-6 max-w-3xl mx-auto font-medium">A comprehensive overview of my technical stack, specializing in data science, advanced machine learning architectures, and scalable deployment.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-solid fa-code text-primary w-6 mr-2 text-xl"></i> Programming Languages</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">Python, SQL</p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-solid fa-brain text-primary w-6 mr-2 text-xl"></i> Machine Learning & AI</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">Supervised Learning, Unsupervised Learning, Regression, Classification, Clustering, Feature Engineering, Model Evaluation, Scikit-learn</p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-solid fa-network-wired text-primary w-6 mr-2 text-xl"></i> Deep Learning</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">TensorFlow, Keras, Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), Long Short-Term Memory (LSTM)</p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-solid fa-eye text-primary w-6 mr-2 text-xl"></i> Computer Vision</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">OpenCV, Image Processing, Object Detection, Image Classification</p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-solid fa-language text-primary w-6 mr-2 text-xl"></i> Natural Language Processing</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2"> NLP, NLTK, Text Preprocessing, Tokenization, Stopword Removal,Stemming, Lemmatization, Regular Expressions(Regex), Sentiment Analysis</p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-solid fa-wand-magic-sparkles text-primary w-6 mr-2 text-xl"></i> Generative AI</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">Generative AI, Large Language Models (LLMs), Prompt Engineering, Microsoft Copilot, AI-Assisted Development</p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-solid fa-cloud-arrow-up text-primary w-6 mr-2 text-xl"></i> Applied AI & Deployment</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">Streamlit, Flask, REST API Development, Docker, AI/ML Model Deployment, Git, GitHub, Jupyter Notebook, Google Colab</p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-brands fa-python text-primary w-6 mr-2 text-xl"></i> Python Libraries</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">Pandas, NumPy, Matplotlib, Seaborn, Plotly</p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col">
+                    <h3 class="text-lg font-display font-bold text-white mb-3 flex items-center border-b border-cardborder pb-2">
+                    <i class="fa-solid fa-database text-primary w-6 mr-2 text-xl"></i> Data Analytics & BI
+                    </h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">
+                         Exploratory Data Analysis (EDA), Data Cleaning, Data Transformation, Predictive Analytics, Database Management Systems (DBMS),Relational Database Design, ER Modeling, Schema Design, SQL Queries, Joins, CRUD Operations, MySQL Workbench
+                    </p>
+                </div>
+
+                <div class="bg-cardbg p-6 rounded-2xl border border-cardborder shadow-lg hover:border-primary/50 transition-all flex flex-col md:col-span-2 lg:col-span-3">
+                    <h3 class="text-lg font-extrabold text-white mb-3 flex items-center border-b border-cardborder pb-2"><i class="fa-solid fa-users-gear text-primary w-6 mr-2 text-xl"></i> Professional Skills & Office Tools</h3>
+                    <p class="text-sm text-slate-300 font-medium leading-relaxed mt-2">
+                        <span class="text-white font-bold">Core Skills:</span> Problem Solving, Analytical Thinking, Communication, Team Collaboration, Presentation Skills.<br>
+                        <span class="text-white font-bold mt-2 inline-block">Microsoft Office:</span> Microsoft Excel, Microsoft Word, Microsoft PowerPoint.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 4. AI & MACHINE LEARNING PROJECTS (Matched exactly to provided layouts) -->
+    <!-- ========================================== -->
+    <section id="ai-projects" class="py-20 bg-cardbg border-t border-cardborder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-6">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4 flex justify-center items-center"><i class="fa-solid fa-brain text-primary mr-4"></i> AI & Machine Learning</h2>
+                <div class="w-20 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full shadow-[0_0_10px_rgba(6,182,212,0.8)]"></div>
+            </div>
+            <p class="text-slate-400 text-center max-w-2xl mx-auto mb-16 font-medium">End-to-end artificial intelligence models focusing on predictive analytics, natural language processing, deep learning, and computer vision.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- 1. GridPulse AI Energy Optimization -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/gridpulse-ai.png')">
+                        <img src="assets/projects/gridpulse-ai.png" alt="GridPulse AI" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=GridPulse+AI'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">GridPulse AI Energy Optimization</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">AI-driven solution to optimize and monitor metrics, leveraging machine learning and predictive analytics to enhance operational efficiency.</p>
+                        <a href="https://github.com/WinjeetSingh/GridPulse-AI-Energy-Optimization" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 2. InsightPilot AI BI Copilot -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/insightpilot-ai.png')">
+                        <img src="assets/projects/insightpilot-ai.png" alt="InsightPilot AI" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=InsightPilot+AI'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">InsightPilot AI BI Copilot</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Advanced AI Business Intelligence Copilot leveraging predictive modeling to assist in strategic business decisions.</p>
+                        <a href="https://github.com/WinjeetSingh/InsightPilot-AI-Business-Intelligence-Copilot" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 3. OmniCanvas AI Interactive -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/omnicanvas-dashboard.png')">
+                        <img src="assets/projects/omnicanvas-dashboard.png" alt="OmniCanvas AI" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=OmniCanvas+AI'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">OmniCanvas AI Interactive</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Interactive panoramic whiteboard enabling touchless interaction using real-time hand gesture recognition and computer vision.</p>
+                        <a href="https://github.com/WinjeetSingh/OmniCanvas-AI-Interactive-Panoramic-Whiteboard-Smart-Presenter" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 4. Aspect-Based Sentiment ABSA -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/sentiment-analysis.png')">
+                        <img src="assets/projects/sentiment-analysis.png" alt="Sentiment Analysis" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=Sentiment+Analysis'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">Aspect-Based Sentiment ABSA</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Built an NLP pipeline for aspect-based sentiment classification of restaurant reviews. Cleaned text data and applied ML techniques.</p>
+                        <a href="https://github.com/WinjeetSingh/Aspect-Based-Sentiment-Analysis-ABSA-for-Restaurant-Reviews-NLP-" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 5. Heart Attack Risk Prediction -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/heart-risk-prediction.png')">
+                        <img src="assets/projects/heart-risk-prediction.png" alt="Heart Risk Prediction" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=Heart+Risk'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">Heart Attack Risk Prediction</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Developed machine learning models to predict heart disease risk based on clinical health features using a predictive approach.</p>
+                        <a href="https://github.com/WinjeetSingh/Heart-Attack-Risk-Prediction-Machine-Learning-Approach" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 6. Student Performance System -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/student-performance.png')">
+                        <img src="assets/projects/student-performance.png" alt="Student Performance" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=Student+Performance'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">Student Performance System</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Developed an AI predictive system to evaluate and forecast academic performance based on demographic and historical data.</p>
+                        <a href="https://github.com/WinjeetSingh/Student-Performance-Prediction-System" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 7. Bank Loan Approval Analysis -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/loan-approval-analysis.png')">
+                        <img src="assets/projects/loan-approval-analysis.png" alt="Loan Approval Analysis" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=Loan+Analysis'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">Bank Loan Approval Analysis</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Analyzed loan approval data to identify risk factors. Implemented a data science approach for predicting loan eligibility.</p>
+                        <a href="https://github.com/WinjeetSingh/Bank-Loan-Approval-Analysis-Data-Science-" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 8. Image Caption Generator -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/image-caption-generator.png')">
+                        <img src="assets/projects/image-caption-generator.png" alt="Image Caption Generator" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=Image+Caption+Gen'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">Image Caption Generator</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Implemented a deep learning model to generate automated captions for images using CNN for feature extraction and LSTM networks.</p>
+                        <a href="https://github.com/WinjeetSingh/Image-Caption-Generation-with-CNN-LSTM-Deep-Learning-" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 9. Inventory Management System -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/projects/inventory-management-system.png')">
+                        <img src="assets/projects/inventory-management-system.png" alt="Inventory System" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=Inventory+System'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-magnifying-glass-plus text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-white mb-3">Inventory Management System</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Designed a backend database system linking Python functionality directly to a MySQL architecture for CRUD operations.</p>
+                        <a href="https://github.com/WinjeetSingh/inventory-management-system-python-mysql" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 5. DATA ANALYTICS DASHBOARDS (Matched exactly to provided layouts) -->
+    <!-- ========================================== -->
+    <section id="dashboards" class="py-20 bg-darkbg border-t border-cardborder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-6">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4 flex justify-center items-center"><i class="fa-solid fa-chart-line text-primary mr-4"></i> Data Analytics Dashboards</h2>
+                <div class="w-20 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full shadow-[0_0_10px_rgba(6,182,212,0.8)]"></div>
+            </div>
+            <p class="text-slate-400 text-center max-w-2xl mx-auto mb-16 font-medium">Transforming complex datasets into interactive visualizations to drive strategic business decisions.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- 1. GridPulse AI Dashboard -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/dashboards/gridpulse-dashboard.png')">
+                        <img src="assets/dashboards/gridpulse-dashboard.png" alt="GridPulse Dashboard" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=GridPulse+Dashboard'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-expand text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col text-center">
+                        <h3 class="text-lg font-bold text-white mb-3">GridPulse AI Dashboard</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Interactive dashboard visualizing GridPulse metrics, tracking KPIs and operational data in real-time.</p>
+                        <a href="https://github.com/WinjeetSingh/GridPulse-AI-Dashboard" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 2. Hotel Booking Analysis -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/dashboards/hotel-booking.png')">
+                        <img src="assets/dashboards/hotel-booking.png" alt="Hotel Booking Dashboard" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=Hotel+Dashboard'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-expand text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col text-center">
+                        <h3 class="text-lg font-bold text-white mb-3">Hotel Booking Analysis</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Dashboard analyzing booking trends, cancellations, and revenue insights. Applied filters to highlight seasonality.</p>
+                        <a href="https://github.com/WinjeetSingh/Hotel-Booking-Analysis" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+                <!-- 3. Sales Analytics Dashboard -->
+                <article class="bg-darkbg rounded-xl shadow-lg border border-cardborder overflow-hidden flex flex-col transition-transform hover:-translate-y-1">
+                    <div class="h-48 overflow-hidden bg-slate-800 relative cursor-pointer group" onclick="openModal('assets/dashboards/sales-dashboard.png')">
+                        <img src="assets/dashboards/sales-dashboard.png" alt="Sales Dashboard" class="w-full h-full object-cover transition-opacity opacity-90 group-hover:opacity-100" onerror="this.src='https://via.placeholder.com/600x400.png?text=Sales+Dashboard'">
+                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-expand text-white text-3xl"></i></div>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col text-center">
+                        <h3 class="text-lg font-bold text-white mb-3">Sales Analytics Dashboard</h3>
+                        <p class="text-slate-400 text-sm mb-6 flex-grow leading-relaxed">Comprehensive dashboard monitoring revenue trends, regional performance, and product sales for decision-making.</p>
+                        <a href="https://github.com/WinjeetSingh/Sales-Analytics-Dashboard" target="_blank" class="w-full py-2.5 bg-[#1e293b] hover:bg-slate-700 border border-slate-700 text-white rounded-lg transition-colors text-center text-sm font-semibold flex items-center justify-center">
+                            <i class="fa-brands fa-github mr-2"></i> GitHub Repo
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 6. CERTIFICATIONS GALLERY (Matched to image_572301.jpg) -->
+    <!-- ========================================== -->
+    <section id="credentials" class="py-20 bg-cardbg border-t border-cardborder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Professional Certifications</h2>
+                <div class="w-20 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full shadow-[0_0_10px_rgba(6,182,212,0.8)]"></div>
+            </div>
+
+            <!-- Top Row: Image Certs -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-8">
+                <div class="bg-darkbg p-4 rounded-xl shadow-lg border border-cardborder hover:-translate-y-1 hover:border-primary/50 transition-all flex flex-col group cursor-pointer h-full" onclick="openModal('assets/certifications/career-essentials-in-data-analysis.png')">
+                    <div class="bg-white rounded p-1 mb-4 flex justify-center items-center overflow-hidden">
+                        <img src="assets/certifications/career-essentials-in-data-analysis.png" alt="Data Analysis" class="w-full h-auto object-cover rounded" onerror="this.src='https://via.placeholder.com/300x200.png?text=Data+Analysis'">
+                    </div>
+                    <p class="text-sm text-center font-bold text-slate-300 group-hover:text-primary transition-colors mt-auto">Career Essentials in Data Analysis</p>
+                </div>
+                
+                <div class="bg-darkbg p-4 rounded-xl shadow-lg border border-cardborder hover:-translate-y-1 hover:border-primary/50 transition-all flex flex-col group cursor-pointer h-full" onclick="openModal('assets/certifications/clean-transform-and-load-data-in-power-bi.png')">
+                    <div class="bg-white rounded p-1 mb-4 flex justify-center items-center overflow-hidden">
+                        <img src="assets/certifications/clean-transform-and-load-data-in-power-bi.png" alt="Power BI" class="w-full h-auto object-cover rounded" onerror="this.src='https://via.placeholder.com/300x200.png?text=Power+BI'">
+                    </div>
+                    <p class="text-sm text-center font-bold text-slate-300 group-hover:text-primary transition-colors mt-auto">Clean, Transform, Load Data (Power BI)</p>
+                </div>
+                
+                <div class="bg-darkbg p-4 rounded-xl shadow-lg border border-cardborder hover:-translate-y-1 hover:border-primary/50 transition-all flex flex-col group cursor-pointer h-full" onclick="openModal('assets/certifications/explore-fundamentals-of-data-visualization.png')">
+                    <div class="bg-white rounded p-1 mb-4 flex justify-center items-center overflow-hidden">
+                        <img src="assets/certifications/explore-fundamentals-of-data-visualization.png" alt="Data Viz" class="w-full h-auto object-cover rounded" onerror="this.src='https://via.placeholder.com/300x200.png?text=Data+Viz'">
+                    </div>
+                    <p class="text-sm text-center font-bold text-slate-300 group-hover:text-primary transition-colors mt-auto">Fundamentals of Data Visualization</p>
+                </div>
+                
+                <div class="bg-darkbg p-4 rounded-xl shadow-lg border border-cardborder hover:-translate-y-1 hover:border-primary/50 transition-all flex flex-col group cursor-pointer h-full" onclick="openModal('assets/certifications/introduction-to-generative-ai-explore-the-basics.png')">
+                    <div class="bg-white rounded p-1 mb-4 flex justify-center items-center overflow-hidden">
+                        <img src="assets/certifications/introduction-to-generative-ai-explore-the-basics.png" alt="Generative AI" class="w-full h-auto object-cover rounded" onerror="this.src='https://via.placeholder.com/300x200.png?text=Generative+AI'">
+                    </div>
+                    <p class="text-sm text-center font-bold text-slate-300 group-hover:text-primary transition-colors mt-auto">Introduction to Generative AI</p>
+                </div>
+                
+                <div class="bg-darkbg p-4 rounded-xl shadow-lg border border-cardborder hover:-translate-y-1 hover:border-primary/50 transition-all flex flex-col group cursor-pointer h-full" onclick="openModal('assets/certifications/train-and-evaluate-classification-models.png')">
+                    <div class="bg-white rounded p-1 mb-4 flex justify-center items-center overflow-hidden">
+                        <img src="assets/certifications/train-and-evaluate-classification-models.png" alt="Classification Models" class="w-full h-auto object-cover rounded" onerror="this.src='https://via.placeholder.com/300x200.png?text=Classification+Models'">
+                    </div>
+                    <p class="text-sm text-center font-bold text-slate-300 group-hover:text-primary transition-colors mt-auto">Train & Evaluate Classification Models</p>
+                </div>
+            </div>
+
+            <!-- Bottom Row: Text Badges -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-darkbg p-6 rounded-xl shadow-lg border border-cardborder flex flex-col justify-center items-center text-center hover:border-primary/30 transition-colors">
+                    <i class="fa-solid fa-certificate text-primary text-4xl mb-4"></i>
+                    <p class="text-sm font-bold text-white mb-2">Query & Modify Data with Transact-SQL</p>
+                    <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">Microsoft & LinkedIn (2025)</p>
+                </div>
+                <div class="bg-darkbg p-6 rounded-xl shadow-lg border border-cardborder flex flex-col justify-center items-center text-center hover:border-primary/30 transition-colors">
+                    <i class="fa-solid fa-shield-halved text-primary text-4xl mb-4"></i>
+                    <p class="text-sm font-bold text-white mb-2">Career Essentials in Cybersecurity</p>
+                    <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">Microsoft & LinkedIn (2025)</p>
+                </div>
+                <div class="bg-darkbg p-6 rounded-xl shadow-lg border border-cardborder flex flex-col justify-center items-center text-center hover:border-primary/30 transition-colors">
+                    <i class="fa-solid fa-laptop-code text-primary text-4xl mb-4"></i>
+                    <p class="text-sm font-bold text-white mb-2">Career Essentials in Software Dev</p>
+                    <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">Microsoft & LinkedIn (2025)</p>
+                </div>
+                <div class="bg-darkbg p-6 rounded-xl shadow-lg border border-cardborder flex flex-col justify-center items-center text-center hover:border-primary/30 transition-colors">
+                    <i class="fa-solid fa-lock text-primary text-4xl mb-4"></i>
+                    <p class="text-sm font-bold text-white mb-2">AI Security Fundamentals</p>
+                    <p class="text-xs text-slate-500 font-medium uppercase tracking-wider">Microsoft & LinkedIn (2026)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- 7. ACHIEVEMENTS GALLERY (Matched to image_56d04e.png) -->
+    <!-- ========================================== -->
+    <section class="py-20 bg-darkbg border-t border-cardborder">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Certifications & Achievements</h2>
+                <div class="w-20 h-1.5 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full shadow-[0_0_10px_rgba(6,182,212,0.8)]"></div>
+            </div>
+
+            <div class="bg-cardbg rounded-2xl border border-cardborder shadow-xl p-8 lg:p-10">
+                <h3 class="text-2xl font-bold text-white mb-8 flex items-center border-b border-cardborder pb-5">
+                    <span class="text-4xl font-extrabold mr-3">W<span class="text-primary">S.</span></span> Notable Achievements
+                </h3>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    <!-- Achievement 1: CV -->
+                    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 cursor-pointer group" onclick="openModal('assets/achievements/computer-vision-project-achievement.png')">
+                        <div class="flex-shrink-0 w-full sm:w-64 h-auto border border-gray-300 rounded-lg overflow-hidden relative bg-white shadow-md">
+                            <img src="assets/achievements/computer-vision-project-achievement.png" alt="CV Achievement" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity" onerror="this.src='https://via.placeholder.com/300x200.png?text=CV+Achievement'">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-expand text-white text-2xl"></i></div>
+                        </div>
+                        <div class="text-center sm:text-left mt-2 sm:mt-0 flex flex-col justify-center h-full">
+                            <h4 class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors leading-snug">Outstanding Performance in Computer Vision</h4>
+                            <p class="text-sm text-slate-400 leading-relaxed font-medium">OmniCanvas AI - Interactive Panoramic Whiteboard | Edunet Foundation | Microsoft | NSTI Ludhiana <br><span class="text-primary mt-2 inline-block">(11/06/2026)</span></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Achievement 2: Power BI -->
+                    <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 cursor-pointer group" onclick="openModal('assets/achievements/power-bi-mini-project-achievement.png')">
+                        <div class="flex-shrink-0 w-full sm:w-64 h-auto border border-gray-300 rounded-lg overflow-hidden relative bg-white shadow-md">
+                            <img src="assets/achievements/power-bi-mini-project-achievement.png" alt="Power BI Achievement" class="w-full h-full object-cover group-hover:opacity-90 transition-opacity" onerror="this.src='https://via.placeholder.com/300x200.png?text=PowerBI+Achievement'">
+                            <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity"><i class="fa-solid fa-expand text-white text-2xl"></i></div>
+                        </div>
+                        <div class="text-center sm:text-left mt-2 sm:mt-0 flex flex-col justify-center h-full">
+                            <h4 class="text-xl font-bold text-white mb-3 group-hover:text-primary transition-colors leading-snug">Outstanding Performance in Power BI</h4>
+                            <p class="text-sm text-slate-400 leading-relaxed font-medium">Hotel Booking Analysis | Edunet Foundation | Microsoft | NSTI Ludhiana | AIPA Program <br><span class="text-primary mt-2 inline-block">(11/03/2026)</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. CONTACT & FOOTER -->
+    <footer id="contact" class="bg-black text-white pt-16 pb-8 border-t border-primary/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
+                
+                <div class="text-center md:text-left">
+                    <div class="font-extrabold text-3xl tracking-tighter mb-4 text-white">W<span class="text-primary">S.</span></div>
+                    <p class="text-slate-500 max-w-xs text-sm leading-relaxed font-medium">Translating complex data into actionable insights through AI and Machine Learning.</p>
+                </div>
+
+                <div class="flex flex-col space-y-4 text-center md:text-right">
+                    <h4 class="text-lg font-bold text-white">Let's Connect</h4>
+                    <a href="mailto:winjeet.singh05@gmail.com" class="text-slate-400 hover:text-primary transition-colors flex items-center justify-center md:justify-end text-sm font-medium">
+                        <i class="fa-solid fa-envelope mr-3 text-primary"></i> winjeet.singh05@gmail.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/winjeet-singh-6017b6387" target="_blank" class="text-slate-400 hover:text-primary transition-colors flex items-center justify-center md:justify-end text-sm font-medium">
+                        <i class="fa-brands fa-linkedin mr-3 text-primary"></i> linkedin.com/in/winjeet-singh
+                    </a>
+                    <a href="https://github.com/WinjeetSingh" target="_blank" class="text-slate-400 hover:text-primary transition-colors flex items-center justify-center md:justify-end text-sm font-medium">
+                        <i class="fa-brands fa-github mr-3 text-primary"></i> github.com/WinjeetSingh
+                    </a>
+                    <span class="text-slate-400 flex items-center justify-center md:justify-end text-sm font-medium">
+                        <i class="fa-solid fa-location-dot mr-3 text-primary"></i> India
+                    </span>
+                </div>
+            </div>
+
+            <div class="mt-12 pt-8 border-t border-slate-900 text-center flex flex-col md:flex-row justify-between items-center">
+                <p class="text-slate-600 text-sm font-medium">Designed & Developed by Winjeet Singh <br class="md:hidden">© 2026 All Rights Reserved</p>
+                <p class="text-primary font-bold tracking-widest text-sm mt-4 md:mt-0 uppercase">AI • Data • Innovation</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- MODAL OVERLAY FOR IMAGE PREVIEWS -->
+    <div id="imageModal" class="fixed inset-0 z-[100] bg-black/90 hidden items-center justify-center opacity-0 transition-opacity duration-300" onclick="closeModal()">
+        <span class="absolute top-6 right-8 text-white text-4xl font-bold cursor-pointer hover:text-primary transition-colors">&times;</span>
+        <img id="modalImage" class="max-w-[90%] max-h-[90vh] object-contain rounded-lg shadow-2xl scale-95 transition-transform duration-300" src="" alt="Preview">
+    </div>
+
+    <!-- INLINE CSS (Matches style.css for one-shot copy-paste ease) -->
+    <style>
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #020617; border-left: 1px solid #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 8px; border: 2px solid #020617; }
+        ::-webkit-scrollbar-thumb:hover { background: #06b6d4; }
+        @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-12px); } 100% { transform: translateY(0px); } }
+        .animate-float { animation: float 6s ease-in-out infinite; }
+        @keyframes pulseSlow { 0%, 100% { opacity: 0.2; transform: scale(0.95); } 50% { opacity: 0.4; transform: scale(1.05); } }
+        .animate-pulse-slow { animation: pulseSlow 8s ease-in-out infinite; }
+        html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+    </style>
+
+    <!-- INLINE JAVASCRIPT FOR MODAL & INTERACTIVITY -->
+    <script>
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+
+        function openModal(imageSrc) {
+            modal.style.display = "flex";
+            setTimeout(() => {
+                modal.classList.remove("opacity-0");
+                modalImg.classList.remove("scale-95");
+                modalImg.classList.add("scale-100");
+            }, 10);
+            modalImg.src = imageSrc;
+            document.body.style.overflow = "hidden";
+        }
+
+        function closeModal() {
+            modal.classList.add("opacity-0");
+            modalImg.classList.remove("scale-100");
+            modalImg.classList.add("scale-95");
+            setTimeout(() => { modal.style.display = "none"; }, 300);
+            document.body.style.overflow = "auto";
+        }
+
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape" && modal.style.display === "flex") { closeModal(); }
+        });
+    </script>
+</body>
+</html>

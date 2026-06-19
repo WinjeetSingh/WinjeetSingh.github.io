@@ -1,0 +1,64 @@
+/* ==========================================================================
+   WINJEET SINGH PORTFOLIO - DARK THEME CUSTOM STYLES
+   ========================================================================== */
+
+/* -----------------------------------------
+   1. CUSTOM SCROLLBAR (Dark Theme)
+   ----------------------------------------- */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020617; /* Slate 950 */
+    border-left: 1px solid #0f172a; /* Slate 900 */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #334155; /* Slate 700 */
+    border-radius: 8px;
+    border: 2px solid #020617; /* Creates padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #06b6d4; /* Cyan 500 hover */
+}
+
+/* -----------------------------------------
+   2. CUSTOM ANIMATIONS & KEYFRAMES
+   ----------------------------------------- */
+
+/* Smooth vertical floating animation for Profile Picture */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+/* Slow Pulse for Background Glow Orbs */
+@keyframes pulseSlow {
+    0%, 100% { opacity: 0.2; transform: scale(0.95); }
+    50% { opacity: 0.4; transform: scale(1.05); }
+}
+
+.animate-pulse-slow {
+    animation: pulseSlow 8s ease-in-out infinite;
+}
+
+/* -----------------------------------------
+   3. ENHANCED VISUAL UTILITIES
+   ----------------------------------------- */
+
+/* Optional: Subdued dotted background pattern for deep dark themes */
+.bg-dot-pattern-dark {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
